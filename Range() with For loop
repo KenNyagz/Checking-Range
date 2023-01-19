@@ -1,0 +1,15 @@
+def in_range(num, lower,upper):
+  lst= (range(lower, upper+1))
+  for element in lst:
+    if num == element:
+      #break
+      return True
+    else:
+      return False
+      
+
+print(in_range(10, 10, 10))
+# should print True
+
+print(in_range(5, 10, 20))
+# should print False
